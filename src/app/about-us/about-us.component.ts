@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutUsComponent implements OnInit {
 
+  readMore: false;
+
   constructor() { }
 
   ngOnInit(): void {
+    
   }
+
+  displayMore = () => {
+    //this.readMore = true;
+  };
 
 }
